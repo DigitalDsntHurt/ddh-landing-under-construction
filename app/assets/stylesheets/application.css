@@ -28,7 +28,6 @@ body {
   background-color: #000;
 }
 
-
 body{
 margin:0;
 padding:0;
@@ -41,6 +40,7 @@ background: url(../images/bg.jpg) right bottom no-repeat;
 background-size: cover;
 box-shadow: inset 0 0 100px rgba(0,0,0,0.5);
 position: relative;
+font-family: 'BioRhyme', serif;
 }
 
 .black{
@@ -64,13 +64,13 @@ height: 100%;
 	margin: auto;
 }
 
-h1{
-	font-family: 'Damion', cursive;
-	font-size: 103px;
-}
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 103px;
+ }
 
 h2{
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'BioRhyme', serif;
 	font-size: 30px;
 	letter-spacing: 4px;
 }
@@ -102,7 +102,7 @@ h2 strong.sep-two{
 }
 
 #middle p{
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'BioRhyme', serif;
 	font-size: 24px;
 	color: #000000;
 	line-height: 34px;
@@ -192,10 +192,12 @@ background-position: -90px -62px;
 	}
 	
 	#middle p{
+		font-family: 'BioRhyme', serif;
 		font-size: 18px;
 		color: #000000;
 		line-height: 24px;
 		padding: 0;
+
 	}
 	
 	#middle p span{
